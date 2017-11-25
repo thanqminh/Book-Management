@@ -15,6 +15,10 @@
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -51,45 +55,68 @@
       </div>
     </nav>
 
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
       <h2 class="text-center"> Book List </h2>
-      <div class="container">
+        <div class="col-md-3">
+            <img src="../drawable/doremon.jpg" height="200px" width="200px">
+        </div>
+        <div class="col-md-9">
+            <h4 class="text-center"> DORAEMON </h4>
+            <dl>
+              <dt>Author:</dt>
+              <dd> Fujiko F. Fujio </dd>
+            </dl>
+            <dl>
+              <dt>Created by:</dt>
+              <dd>Shyn pro</dd>
+            </dl>
+            <dl>
+              <dt>Number pages:</dt>
+              <dd>50</dd>
+            </dl>
+            <dl>
+              <dt>Describe :</dt>
+              <dd>Doraemon (ドラえもん?) (hay Đôrêmon, tên gọi cũ trước khi được đổi theo công ước Bern về bản quyền), là bộ truyện tranh Nhật Bản của tác giả Fujiko Fujio...</dd>
+            </dl> 
+            <a class="btn btn-primary" href="bookedit.html" style="display: block; margin: 0px auto; color:white; width: 100px;">Edit</a>
+        </div>
         
-        <div class="form-group">
-          <div class="col-md-3">
-            <p> Name Story: </p>
-          </div>
-          <div class="col-md-5">
-            <input type="text" placeholder="Name Story">  
-          </div>
+        <div style="clear: both;"></div>
+        <hr>
+
+        <div class="col-md-3">
+            <img src="../drawable/conan.jpg" height="200px" width="200px">
         </div>
 
-        <div class="form-group">
-          <div class="col-md-3">
-            <p> Author: </p>
-          </div>
-          <div class="col-md-5">
-            <input type="text" placeholder="Author"> 
-          </div>
+        <div class="col-md-9">
+            <h4 class="text-center"> CONAN </h4>
+            <dl>
+              <dt>Author:</dt>
+              <dd> Fujiko F. Fujio </dd>
+            </dl>
+            <dl>
+              <dt>Created by:</dt>
+              <dd>Shyn pro</dd>
+            </dl>
+            <dl>
+              <dt>Number pages:</dt>
+              <dd>50</dd>
+            </dl>
+            <dl>
+              <dt>Describe :</dt>
+              <dd>Doraemon (ドラえもん?) (hay Đôrêmon, tên gọi cũ trước khi được đổi theo công ước Bern về bản quyền), là bộ truyện tranh Nhật Bản của tác giả Fujiko Fujio...</dd>
+            </dl> 
+            <a class="btn btn-primary" href="bookedit.html" style="display: block; margin: 0px auto; color:white; width: 100px;">Edit</a>
         </div>
-
-        <div class="form-group">
-          <div class="col-md-3">
-            <p> Genre: </p>
-          </div>
-          <div class="col-md-5">
-            <input type="text" placeholder="Genre"> 
-          </div>
-        </div>
-
-        <p><a href="#" class="btn btn-primary btn-lg" role="button">Add new story &raquo;</a></p>
-      </div>
     </div>
-    <div class="col-md-2"></div>
+    <div class="col-md-1"></div>
+
+    <div style="clear: both;"></div>
+    <hr>
 
     <div class="container row">
-      <footer>
+      <footer class=" bc-docs-footer">
         <div class="col-md-9">
         </div>
         <div class="col-md-3 navbar-right navbar-bottom">
@@ -113,8 +140,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
