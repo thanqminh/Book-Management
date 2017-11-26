@@ -1,0 +1,29 @@
+<% content_for :title, "Home" %>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <!-- header -->
+    <%= render "layouts/header" %>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Welcome to Library</h1>
+        <p>This is application make from VNUK-ers</p>
+
+        <p><%= link_to("Sign up now!", {:action => 'signup'}, class: 'btn btn-primary btn-lg', role: 'button') %></p>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <%= render "layouts/footer" %>
+
+  </body>
+</html>
