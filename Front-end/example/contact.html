@@ -10,14 +10,44 @@
     <title>Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+      .profile .image img{
+        height: 120px;
+      }
+      .profile .name p{
+        font-size: 30px;
+      }
+      .profile .address p i{
+        text-align: left;
+      }
+      .profile{
+        margin: 0 16px;
+        padding-top: 16px;
+        border: 1px solid #dfdfdf;
+        border-radius: 3px;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        min-height: 388px;
+      }
+      .profilecontainer{
+        display: flex;
+        margin-top: 32px;
+        justify-content: space-between;
+      }
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -27,7 +57,6 @@
   </head>
 
   <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -55,13 +84,81 @@
       </div>
     </nav>
 
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-      <div class="container-fluid">
-        <h2 class="text-center"> Contact us</h2>
-      </div>
+    <h1 class="text-center"> Contact us</h1><br><br>
+
+    <br><br>
+
+    <div class="col-md-1" style="margin-left: 55px"></div>
+    <div class="col-md-3">
+      <div class="profile">
+        <div class="image">
+          <img src="../drawable/conan.jpg" class="img-circle" alt="Cinque Terre">
+        </div>
+        <div class="name">
+          <p class="text-center"> Shyn </p> 
+        </div>
+        <div class="address">
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i> Đà Nẵng, Việt Nam</p>
+        </div>
+        <div class="studied">
+          <p><i class="fa fa-briefcase" aria-hidden="true"></i> Studied Computer Science and Engineering in VNUK</p>
+        </div>
+        <div class="mail">
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> hung.le150049@vnuk.edu.vn</p>
+        </div>
+        <div class="mail">
+          <p><i class="fa fa-phone" aria-hidden="true"></i></i> 0123456789</p>
+        </div>
+      </div>          
     </div>
-    <div class="col-md-4"></div>
+    <div class="col-md-3">
+      <div class="profile">
+        <div class="image">
+          <img src="../drawable/conan.jpg" class="img-circle" alt="Cinque Terre">
+        </div>
+        <div class="name">
+          <p class="text-center"> Shyn </p> 
+        </div>
+        <div class="address">
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i> Đà Nẵng, Việt Nam</p>
+        </div>
+        <div class="studied">
+          <p><i class="fa fa-briefcase" aria-hidden="true"></i> Studied Computer Science and Engineering in VNUK</p>
+        </div>
+        <div class="mail">
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> hung.le150049@vnuk.edu.vn</p>
+        </div>
+        <div class="mail">
+          <p><i class="fa fa-phone" aria-hidden="true"></i></i> 0123456789</p>
+        </div>
+      </div>          
+    </div>
+    <div class="col-md-3">
+      <div class="profile">
+        <div class="image">
+          <img src="../drawable/conan.jpg" class="img-circle" alt="Cinque Terre">
+        </div>
+        <div class="name">
+          <p class="text-center"> Shyn </p> 
+        </div>
+        <div class="address">
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i> Đà Nẵng, Việt Nam</p>
+        </div>
+        <div class="studied">
+          <p><i class="fa fa-briefcase" aria-hidden="true"></i> Studied Computer Science and Engineering in VNUK</p>
+        </div>
+        <div class="mail">
+          <p><i class="fa fa-envelope" aria-hidden="true"></i> hung.le150049@vnuk.edu.vn</p>
+        </div>
+        <div class="mail">
+          <p><i class="fa fa-phone" aria-hidden="true"></i></i> 0123456789</p>
+        </div>
+      </div>          
+    </div>
+    
+    <div style="clear: both;"></div>
+    <hr>
+    
 
     <div class="container row">
       <footer>
@@ -88,8 +185,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
+
+

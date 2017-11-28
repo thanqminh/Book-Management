@@ -10,11 +10,14 @@
     <title>Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -52,10 +55,30 @@
       </div>
     </nav>
 
+    <h1 class="text-center"> Book Create </h1>
+
+    <br><br>
+
     <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-        <h2 class="text-center"> Book Create </h2><br><br>
+      <div class="col-md-3" style="margin-left: 50px">
+          <div class="col-md-5"></div>
+          <div class="col-md-7">
+            <img src="../drawable/addimage.jpg" height="140px" width="140px">
+          </div>
+          
+          <div style="clear: both;"></div>
+          <br>
+
+          <div class="row form-group">
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-7 ">
+              <a href="#" class="btn btn-success" role="button">Update cover story</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        
         <div class="container">
           
           <div class="row form-group">
@@ -87,10 +110,10 @@
 
           <div class="row form-group">
             <div class="col-md-2">
-              <p> Cover story: </p>
+              <p> Number Pages: </p>
             </div>
-            <div class="col-md-10 ">
-              <a href="#" class="btn btn-success" role="button">Update cover story</a>
+            <div class="col-md-10">
+              <input type="text" placeholder="Number Pages"> 
             </div>
           </div>
 
@@ -99,18 +122,21 @@
               <p> Describe: </p>
             </div>
             <div class="col-md-10">
-              <input type="text" placeholder="Describe"> 
+              <textarea rows="4" cols="40" placeholder="Describe">
+              </textarea>
             </div>
           </div>
         </div>
-
-        <br>
-
-        <p class="text-center"><a href="#" class="btn btn-primary btn-lg" role="button">Add new story &raquo;</a></p>
       </div>
       <div class="col-md-3"></div>
     </div>
+
     
+    <div style="clear: both;"></div>
+    <br>
+    <hr>
+
+    <p class="text-center"><a href="#" class="btn btn-primary btn-lg" role="button">Add new story &raquo;</a></p>
 
     <div class="container row">
       <footer>
@@ -137,9 +163,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
 

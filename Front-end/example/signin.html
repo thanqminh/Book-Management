@@ -10,12 +10,12 @@
     <title>Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -53,27 +53,28 @@
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
+    
+    <h1 class="text-center"> Sign in </h1><br><br>
 
     <div class="col-md-4"></div>
     <div class="col-md-4">
-      <div class="container-fluid">
-        <h2 class="text-center"> Sign in </h2>
-          <form class="form-group">
-            <p>Email</p>
-            <input type="text" placeholder="Email" class="form-control">
-          </form>
-          <form class="form-group">
-            <p>Password <a href="forgotpassword.html"> (forgot password) </a></p>
-            <input type="text" placeholder="Password" class="form-control">
-          </form>
-        <p><a class="btn btn-primary btn-lg" href="home.html" role="button"> Sign in &raquo;</a></p>
-          <form class="form-group">
-            <p>New user? <a href="signup.html"> Sign up now! </a></p>
-          </form>
-      </div>
+      <form class="form-group">
+        <p>Email</p>
+        <input type="text" placeholder="Email" class="form-control">
+      </form>
+      <form class="form-group">
+        <p>Password <a href="forgotpassword.html"> (forgot password) </a></p>
+        <input type="text" placeholder="Password" class="form-control">
+      </form>
+      <p><a class="btn btn-primary btn-lg" href="home.html" role="button"> Sign in &raquo;</a></p>
+      <form class="form-group">
+        <p>New user? <a href="signup.html"> Sign up now! </a></p>
+      </form>
     </div>
     <div class="col-md-4"></div>
 
+    <div style="clear: both;"></div>
+    <hr>
 
     <div class="container">
       <footer>
@@ -101,8 +102,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
